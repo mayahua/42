@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_ultimate_range.c                                :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mhua <mhua@student.42.fr>                  #+#  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-09-25 14:59:42 by mhua              #+#    #+#             */
-/*   Updated: 2025-09-25 14:59:42 by mhua             ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h>
 #include <stdlib.h>
 
@@ -38,7 +26,6 @@ int	ft_ultimate_range(int **range, int min, int max)
 	return (size);
 }
 
-/*
 void	ft_putnbr(int nb)
 {
 	char	c;
@@ -86,4 +73,3 @@ int	main(int argc, char **argv)
 	}
 	return (0);
 }
-//*/
