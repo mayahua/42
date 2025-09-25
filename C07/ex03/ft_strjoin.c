@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mhua <mhua@student.42.fr>                  #+#  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-09-25 15:29:34 by mhua              #+#    #+#             */
-/*   Updated: 2025-09-25 15:29:34 by mhua             ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -74,7 +62,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	return (str);
 }
 
-/*
+
 int main(int argc, char **argv)
 {
     char *result;
@@ -91,4 +79,3 @@ int main(int argc, char **argv)
 	}
     return (0);
 }
-//*/
